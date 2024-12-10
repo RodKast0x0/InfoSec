@@ -1,3 +1,2 @@
 
-# GitHub : bla bla bla
-# LinkedIn : bla bla bla
+# Well hello im RodKast !
