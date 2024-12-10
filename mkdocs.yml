@@ -1,0 +1,60 @@
+site_name: InfoSec Docs
+
+theme:
+    name: material
+    features:
+      - navigation.tabs
+      - navigation.sections
+      - toc.intergrate
+      - search.suggest
+      - search.highlight
+      - content.tab.link
+      - content.code.annotation
+      - content.code.copy
+    language: en
+    palette:  
+      - scheme: blackgrey
+        toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to dark mode
+        primary: black
+        accent: black
+      - scheme: slate
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to light mode
+        primary: black
+        accent: black
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/RodKast0x0
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/christos-apostolakis-742540195/
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/RodKast0x0" target="_blanc" rel="noopener">RodKast</a>
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.magiclink
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - md_in_html
+
+
+
+
+nav:
+  - 'About Me': 
+    #- 'GitHub':
+      - "index.md"
+  - 'InfoSec':
+      - "page2.md"
